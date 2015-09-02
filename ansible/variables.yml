@@ -106,13 +106,13 @@ ssl_ip_fix: false
 # Nginx
 worker_processes: '1'
 nginx_sites:
-  - hostname: 'local.ansibleref.com *.local.ansibleref.com'
+  - hostname: 'hub.wunder.dev *.hub.wunder.dev'
     port: '8080 default_server'
     docroot: '/vagrant/drupal/current'
     accesslog: true
     accesslog_params: 'main buffer=32k'
     errorlog: true
-    logprefix: 'local.ansibleref.com'
+    logprefix: 'hub.wunder.dev'
     ssl: false
     sslproxy: false
     ssl_certificate: default.crt
