@@ -26,6 +26,12 @@ projects[examples][download][url] = http://git.drupal.org/project/examples.git
 projects[examples][download][branch] = 8.x-1.x
 projects[examples][subdir] = development
 
+projects[config_devel][version] = 1.x-dev
+projects[config_devel][download][type] = git
+projects[config_devel][download][url] = http://git.drupal.org/project/config_devel.git
+projects[config_devel][download][branch] = 8.x-1.x
+projects[config_devel][subdir] = development
+
 ; no release for coder module yet
 ;projects[coder][version] = 1.x-dev
 ;projects[coder][download][type] = git
