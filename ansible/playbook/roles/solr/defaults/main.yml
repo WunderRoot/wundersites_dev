@@ -10,4 +10,4 @@ cache_path: /tmp/vagrant-cache
 solr_url: ftp://www.nic.funet.fi/pub/mirrors/apache.org/lucene/solr/
 
 # Version
-solr_version: 4.7.2
+solr_version: 4.10.4

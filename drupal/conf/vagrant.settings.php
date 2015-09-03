@@ -85,3 +85,4 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+$settings['container_yamls'][] = __DIR__ . '/services.yml';

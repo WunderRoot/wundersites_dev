@@ -19,10 +19,7 @@ api = 2
 ; Download the latest beta
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-projects[drupal][download][tag] = 8.0.0-beta4
-projects[drupal][patch][] = https://www.drupal.org/files/issues/jsonp_callback_is-2132779-10.patch
-projects[drupal][patch][] = https://www.drupal.org/files/issues/2396253-rest_views_default_format-2.patch
-projects[drupal][patch][] = https://www.drupal.org/files/issues/2401195-14.patch
+projects[drupal][download][tag] = 8.0.0-beta14
 
 ; Includes
 ; include other make files from local or remote destinations
